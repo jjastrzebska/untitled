@@ -1,0 +1,136 @@
+body {
+  background-color: #FFF5EE;
+}
+#header {
+  position: relative;
+  top: -10px;
+  background-color: #B22222;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+h1 {
+  font-family: Broadway;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+}
+#navbar {
+  position: absolute;
+  left:50%;
+  margin-left:-170px;
+  margin-top: -15px;
+}
+ul {
+  list-style-type: none;
+  position: static;
+  margin: -10px;
+}
+li {
+  display: inline;
+  padding: 5px 5px 5px 5px;
+  border: 2px solid #2F4F4F;
+  font-family: Tahoma, sans-serif;
+  color: #ffffff;
+  border-radius: 5px 5px;
+  background-color: #2F4F4F
+}
+
+#footer {
+  clear: both;
+  background-color: #B22222;
+  position: relative;
+  bottom: -240px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 75px;
+}
+h2  {
+  font-family: Tahoma, sans-serif;
+  color: #2F4F4F;
+  font-weight: bold;
+  font-size: 4em;
+}
+p {
+  font-family: Tahoma, sans-serif;
+  color: #2F4F4F;
+  font-size: large;
+  margin-left: 100px;
+}
+#left {
+  float: left;
+  width: 45%;
+  text-align: center;
+  margin-top: 145px;
+}
+li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+p a {
+  color: #2F4F4F;
+  text-decoration: none;
+}
+#right {
+  float: right;
+  width: 45%;
+  text-align: center;
+  margin-top: 145px;
+}
+
+table {
+  border: hidden;
+  background-color: #FFF5EE;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+td {
+  height: 200px;
+  width: 200px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  box-shadow: none;
+}
+
+#center {
+  margin: auto;
+  font-weight: bold;
+}
+.left-left {
+  position: relative;
+  float: left;
+  margin-top: 50px;
+  width: 11%;
+  height: 500px;
+  background-color: #2F4F4F;
+  margin-bottom: 10px;
+}
+.left {
+  position: relative;
+  float: left;
+  margin-top: 50px;
+  width: 50%;
+  height: 500px;
+  background-color: #DCDCDC;
+  margin-bottom: 10px;
+}
+h4 {
+  color: #2F4F4F;
+  font-family: Tahoma;
+}
+.list-item {
+  display: list-item;
+  border: none;
+  background-color: #DCDCDC;
+  padding: none;
+  border-radius: none;
+  color: #2F4F4F;
+  width: 80%;
+  margin-left: 67px;
+  font-size: 13px;
+}
